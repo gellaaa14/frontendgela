@@ -1,0 +1,49 @@
+div {
+    background-color: yellow;
+}
+
+#firstDiv {
+    background-color: black;
+}
+
+#secondDiv {
+    background-color: blue;
+}
+
+.redElements {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(255, 0, 0, 1);   
+    font-style: italic;
+    font-weight: 500px;
+    font-size: 1.5em;
+}
+
+.tallElements {
+    height: 200px;
+    width: 10vw;
+}
+
+#firstDiv, .redElements {
+    color: blue;
+}
+
+#separateDiv .subChild {
+    color: green;
+}
+
+.squareElement {
+    width: 50%;
+    height: 200px;
+    background-color: purple;
+    border: 10px solid aqua;
+}
+
+#sizeChild {
+    width: 20%;
+    max-width: 200px;
+    background-color: blue;
+}
+
+#secondChild {
+    height: 75px;
+}
